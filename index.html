@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<title>Store Home Page</title>
+		<meta charset = "utf-8">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+	<style>
+		.aboutText {
+			margin: auto;
+			width: 50%;
+		}
+
+	</style>
+	</head>
+	<body>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		  <div class="container-fluid">
+			<a class="navbar-brand" href="homepage.html">Arngren</a>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+			  <ul class="navbar-nav">
+				<li class="nav-item dropdown">
+				  <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+					Select a Product Type
+				  </button>
+				  <ul class="dropdown-menu dropdown-menu-dark">
+					<li><a class="dropdown-item" href="cars.html">Cars</a></li>
+					<li><a class="dropdown-item" href="bikes.html">Bikes</a></li>
+					<li><a class="dropdown-item" href="toys.html">Toys</a></li>
+				  </ul>
+				</li>
+			  </ul>
+			</div>
+		  </div>
+		</nav>
+		
+		<section class="title text-center">
+			<img src="img/title_pic.jpg" alt="titlepic" style="width:15%">
+			<h1>About us</h1>
+		</section>
+		<p class="aboutText">Arngren is your go to website for cars, bikes, and toys. We have multiple selections 
+			to choose from, at hard-to-beat prices.  Founded by Guttas Forstevalg, with website recreation
+			and updating by Finnan Steinbrunner, Jesse Johnson, and Jack Raymer.</p>
+		</section>
+		<br><br>
+		<div class="container text-center">  
+		  <div class="row">
+			<div class="col">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/basic_car.jpg" class="card-img-top" alt="basicCar">
+				  <div class="card-body">
+					<h5 class="card-title">Cars</h5>
+					<p class="card-text">We offer cars with low milage at an affordable price, from older classics to newer dream cars.</p>
+					<a href="cars.html" class="btn btn-primary">Navigate to Cars!</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/bikes.jpg" class="card-img-top" alt="Bikes">
+				  <div class="card-body">
+					<h5 class="card-title">Bikes</h5>
+					<p class="card-text">From bicycles to motorcycles, we have them all!</p>
+					<a href="bikes.html" class="btn btn-primary">See our bikes!</a>
+				  </div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card" style="width: 18rem;">
+				  <img src="img/toy_icon.png" class="card-img-top" alt="toy_car">
+				  <div class="card-body">
+					<h5 class="card-title">Toys</h5>
+					<p class="card-text">We have small collection of motorized and non-motorized toy vehicles!</p>
+					<a href="toys.html" class="btn btn-primary">See our toys!</a>
+				  </div>
+				</div>
+			</div>
+		  </div>
+		</div>
+				
+
+	</body>
+</html>

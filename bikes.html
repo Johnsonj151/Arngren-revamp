@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bikes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Arngren</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item dropdown">
+          <button class="btn btn-dark dropdown-toggle" data-bs-toggle="dropdown">
+            Select a Product Type
+          </button>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="cars.html">Cars</a></li>
+            <li><a class="dropdown-item" href="bikes.html">Bikes</a></li>
+            <li><a class="dropdown-item" href="toys.html">Toys</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<div class="container text-center mt-4">
+    <h1>Bikes Catalog</h1>
+    <p>Explore our selection of bicycles and motorcycle</p>
+
+    <div class="row mt-4">
+        <div class="col-md-6">
+            <div class="card mx-auto" style="width: 20rem;">
+                <img src="img/bicycle.jpg" class="card-img-top" alt="bicycle">
+                <div class="card-body">
+                    <h5 class="card-title">Bicycles</h5>
+                    <p class="card-text">Road bikes, mountain bikes, and city commuters.</p>
+                    <a href="bicycles.html" class="btn btn-primary">View Bicycles</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 mt-4 mt-md-0">
+            <div class="card mx-auto" style="width: 20rem;">
+                <img src="img/motorcycle.jpg" class="card-img-top" alt="motorcycle">
+                <div class="card-body">
+                    <h5 class="card-title">Motorcycles</h5>
+                    <p class="card-text">Cruisers, sport bikes, and off-road machines ready to ride.</p>
+                    <a href="motorcycles.html" class="btn btn-primary">View Motorcycles</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
